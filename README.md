@@ -54,7 +54,7 @@ I love connecting with other developers and designers! Please, feel free to reac
 
 - 📧 Email: [gavindg20@gmail.com](mailto:gavindg20@gmail.com)
 - 💼 LinkedIn: [Gavin Griggs](https://www.linkedin.com/in/gavin-griggs-frmthe44/)
-- 🌐 Portfolio: [My Portfolio Website](https://gavndev.github.io/social-links-profile/)
+- 🌐 Portfolio: [My Portfolio Website](https://gavndev.github.io/portfolio/)
 - 📸 Instagram: [@gaaavnnn](https://www.instagram.com/gaaavnnn)
 
 ---
