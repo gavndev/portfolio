@@ -1,7 +1,5 @@
 # Gavin Griggs - Full-Stack Web Developer & UI/UX Designer
 
-![Portfolio Banner](path/to/your/banner-image.png)
-
 Welcome to my GitHub portfolio! I'm Gavin Griggs, an aspiring full-stack web developer and UI/UX designer passionate about building interactive, user-friendly web applications. This repository showcases my projects, skills, and (ongoing!!) journey in web development.
 
 ## 🌐 About Me
