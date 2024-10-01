@@ -227,7 +227,7 @@ footer{
 
     }
     50% {
-        transform: translateY(-2px) rotate3d(0, 0, 1, -2deg);
+        transform: translateY(0.0000001vh) rotate3d(0, 0, 1, -2deg);
     }
     75%{
         transform: translateY() rotate3d(0, 0, 1, 1deg);
@@ -245,7 +245,7 @@ footer{
     }
 
     50% {
-        transform: translateY(-1.5px) rotate3d(0, 0, 1, 1deg);
+        transform: translateY(-0.1px) rotate3d(0, 0, 1, 1deg);
     }
 
     75%{
