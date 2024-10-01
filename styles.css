@@ -9,6 +9,7 @@
 body {
     background-color: #ffffff;
     background-image: url(./assets/images/Background-Photo.svg);
+    background-size: cover;
   }
   
 .navbar {
@@ -79,14 +80,13 @@ body {
 }
 
 .about-me{
-    height: 100vh;
     display: flex;
 }
 
 .about-me-text-section{
     padding: 40px;
-
-    width: 50vw;
+    background-color: #3a5236;
+    max-width: 50vw;
     overflow: scroll;
     backdrop-filter: blur(30px);
     border-radius: 10px;
@@ -99,7 +99,7 @@ body {
 
 .about-me-media-section{
     padding: 40px;
-    width: 50vw;
+    max-width: 50vw;
     overflow: scroll;
     backdrop-filter: blur(30px);
     border-radius: 10px;
@@ -109,10 +109,14 @@ body {
     display: none;
 }
 
+.about-me-media-section img{
+    width: 350px;
+}
 
 .about-me h1{
     color: #606C38;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    padding-bottom: 10px;
 }
 
 
@@ -121,15 +125,13 @@ body {
 
   
 .hero {
-    position: relative;
     text-align: left;
     padding: 80px;
-    height: 100vh;
     overflow: hidden;
   }
   
 .hero-intro{
-    font-size: 2.1rem;
+    font-size: 2.8vh;
   }
 
 .hero-myName{
@@ -149,7 +151,7 @@ body {
     aspect-ratio: 1 / 1;
 }
 
-.wave-background {
+/* .wave-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -158,7 +160,7 @@ body {
     background: url(./assets/images/Background-Photo.svg) no-repeat;
     background-size: cover;
     z-index: -1;
-}
+} */
   
 .hero-text h1 {
     font-size: 3em;
