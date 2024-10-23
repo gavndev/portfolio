@@ -278,7 +278,7 @@ footer{
     }
 }
 
-@media (max-width: 941px) {
+@media (max-width: 984px) {
     section{
         flex-direction: column;
     }
