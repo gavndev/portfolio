@@ -279,6 +279,7 @@ footer{
 }
 
 @media (max-width: 979px) {
+
     section{
         flex-direction: column;
     }
@@ -308,10 +309,6 @@ footer{
 
     
 
-    .hero-text .tech-icons{
-        justify-content: center;
-        
-    }
 
     .hero-aboutMe{
         width: 100%;
@@ -343,6 +340,10 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .cta-button, .cta-button-invert {
+        font-size: 12px;
     }
 }
 
