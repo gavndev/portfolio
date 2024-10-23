@@ -278,25 +278,20 @@ footer{
     }
 }
 
-@media (max-width: 979px) {
-
+@media (max-width: 941px) {
     section{
         flex-direction: column;
     }
-
     .hero-text{
         width: 100%;
     }
-
     
     .hero-text h1{
         font-size: 4em;
     }
-
     .hero-text h2{
         font-size: 2.5em;
     }
-
     .hero-text p{
         font-size: 1.5em;
     }
@@ -306,10 +301,16 @@ footer{
         display: flex;
         justify-content: center;
     }
-
-    
-
-
+    .hero-bottom-links a{
+        font-size: 12px;
+    }
+    .hero-text h1, .hero-text h2, .hero-text h3, .hero-text p{
+        text-align: center;
+    }
+    .hero-text .tech-icons{
+        justify-content: center;
+        
+    }
     .hero-aboutMe{
         width: 100%;
         font-size: 1.2em;
@@ -317,7 +318,6 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-
     .hero-aboutMe h2{
         font-size: 2em;
     }
@@ -325,39 +325,15 @@ footer{
     .work-container{
         flex-direction: column;
     }
-
     .work-container .work-card{
         width: 100%;
     }
-
-
-
-
 }
 
-@media (max-width: 446px) {
+@media (max-width: 425px) {
     #myWork {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .cta-button, .cta-button-invert {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 363px)
-{
-    html{
-        overflow-x: hidden;
-    }
-
-    .navbar .logo{
-        font-size: 0.4em;
-    }
-
-    .navbar ul li a{
-        scale: 0.5;
     }
 }
