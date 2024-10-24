@@ -177,13 +177,15 @@ section{
 
 .work-container .work-card{
     padding: 20px;
-    background-color: #608958;
-    width: 50%;
+    background-color: #8cc680;
+    width: auto;
+    height: auto;
     border-radius: 10px;
 }
 
 .work-card img{
     width: 100%;
+    max-width: 300px;
     height: auto;
 }
 
@@ -212,7 +214,8 @@ section{
 
 
 .attribution-heart{
-    padding: 0 5px;
+    padding: 0 4px;
+    margin-bottom: 2px;
     animation: pulseHeart 2s linear infinite;
 }
 
